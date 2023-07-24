@@ -106,6 +106,7 @@ th {
     padding: 12px 0px 12px 6px;
     border-bottom-width: 2px;
     border-bottom-color: solid gray;
+    border: 1px solid rgb(128, 128, 128);
     font: bold;
   }
 
