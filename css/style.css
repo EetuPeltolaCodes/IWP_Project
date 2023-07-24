@@ -10,7 +10,7 @@ body {
   
   #map {
     flex: 1; /* Allow the map to take up available space in the container */
-    height: 400px; /* Set the height of the map as needed */
+    height: 700px; /* Set the height of the map as needed */
   }
   
   #data_table {
