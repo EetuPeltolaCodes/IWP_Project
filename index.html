@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Municipal elections 2017</title>
-    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <title>Municipal elections 2017</title>    <!--Give the website a title-->
+    <link rel="stylesheet" href="leaflet/leaflet.css" />    <!--Call all the needed files-->
 	<script src="leaflet/leaflet.js"></script>
     <script src="js/fetch.js" defer></script>
     <link rel="stylesheet" href="css/style.css">
 
-    <u><h2 class="center">This map shows Finland's municipal election results in 2017</h2></u>
+    <u><h2 class="center">This map shows Finland's municipal election results in 2017</h2></u>  <!--Give a headline to the website-->
 
-    <button id="btn-keskusta">Keskusta</button>
+    <button id="btn-keskusta">Keskusta</button> <!--Create all the buttons for the parties-->
     <button id="btn-kokoomus">Kokoomus</button>
     <button id="btn-ps">Perussuomalaiset</button>
     <button id="btn-sdp">Sosiaalidemokraatit</button>
@@ -22,11 +22,13 @@
     <button id="btn-kd">Kristillisdemokraatit</button>
     <button id="btn-others">Muut puolueet</button><br>
 
+
     <h5>By pressing the buttons you get specific data from that party and by pressing a municipality in the map you get specific data from that municipality</h5>
+        <!--Give user some advice-->
 
     </head>
     <body>
-        <div id="map-container">
+        <div id="map-container">    <!--Create a map-conteiner where there will be a map and a table next to each other-->
             <div id="map"></div>
             <table id="data_table">
                 <thead id="data_table_head">

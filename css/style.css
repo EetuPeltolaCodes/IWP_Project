@@ -1,3 +1,5 @@
+/*This file contains the basic CSS-styling for the website*/
+
 body {
     font-family: sans-serif;
     background-color: lightcyan;
@@ -17,7 +19,7 @@ body {
     margin-left: 10px; 
   }
   
-@media (max-width: 800px) {
+@media (max-width: 800px) {    /*Make the website mobile friendly*/
     #map {
       flex: 1;
       height: 500px
@@ -40,8 +42,10 @@ button {
 }
 
 button:active {
-    transform: translateY(2px);
+    transform: translateY(2px); /*Make the pressed button do a animation*/
 }
+
+/*Change the color of the button for each party when hovered on*/
 
 #btn-keskusta:hover {
     background-color: #3bad2e;
